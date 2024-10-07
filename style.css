@@ -20,7 +20,7 @@
 
 .showcase-container-content > img {
   position: absolute;
-  top: 35px;
+  top: 60px;
   right: -50px;
 }
 
@@ -409,18 +409,12 @@
 
 /* News section */
 .news-container {
-  margin-top: 80px;
   text-align: center;
+  margin-bottom: 160px;
 }
 
 .news-container h2 {
   margin-bottom: 20px;
-}
-
-.news-container p {
-  max-width: 490px;
-  margin: auto;
-  margin-bottom: 80px;
 }
 
 .news-cards {
@@ -450,6 +444,49 @@
   align-items: center;
   color: #61646b;
   font-size: 1.125rem;
+}
+
+/* Newsletter */
+.newsletter-container {
+  text-align: center;
+  position: relative;
+  margin-bottom: 80px;
+}
+.newsletter-container span {
+  display: block;
+  color: #3e3fd8;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.newsletter-container h2 {
+  margin-bottom: 20px;
+}
+
+.newsletter-container p {
+  margin-bottom: 40px !important;
+}
+
+.newsletter-form input {
+  font-size: 1.5rem;
+  border: 2px solid #61646b;
+  outline: none;
+  padding: 20px 50px;
+  border-radius: 50px;
+  width: 70%;
+}
+.newsletter-form button {
+  background-color: #3e3fd8;
+  color: white;
+  padding: 15px 25px;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 50px;
+  outline: none;
+  position: absolute;
+  bottom: 7px;
+  right: 175px;
+  cursor: pointer;
 }
 
 /* utilities */
@@ -483,4 +520,11 @@ p {
   border-radius: 10px;
   color: white;
   box-shadow: 0 0 15px 1px #00000025;
+}
+
+.news-container p,
+.newsletter-container p {
+  max-width: 490px;
+  margin: auto;
+  margin-bottom: 80px;
 }
