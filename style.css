@@ -298,6 +298,58 @@
   left: 85px;
 }
 
+/* */
+.solutions-container {  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.solutions-container img {
+  max-width: 600px;
+}
+
+.solutions-content > h2 {
+  margin-bottom: 20px;
+}
+
+.solutions-content > p {
+  margin-bottom: 40px;
+}
+
+.solutions-cards {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  column-gap: 20px;
+}
+.total-clients, .total-projects {
+  position: relative;
+  border-radius: 25px;
+  padding: 10px 35px 20px;
+  background-color: rgb(252, 221, 236, 0.5);
+}
+
+.total-clients span {
+  font-size: 3rem;
+  color: #ff3d68;
+  font-weight: bold;
+}
+
+.total-projects span {
+  font-size: 3rem;
+  color: #3e3fd8;
+  font-weight: bold;
+}
+
+.total-clients p,
+.total-projects p {
+  color: #2e323b !important;
+  position: absolute;
+  top: 60px;
+  left: 40px;
+}
+
 /* utilities */
 .main-container {
   max-width: 1120px;
