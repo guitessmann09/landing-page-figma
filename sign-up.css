@@ -1,0 +1,100 @@
+.sign-up-container {
+  background-color: rgba(0, 0, 0, 0.25);
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+.form {
+  width: 400px;
+  max-width: 100%;
+  padding: 20px;
+  background-color: #eef4ff;
+  border-radius: 20px;
+  box-shadow: 0 0 15px 1px #00000025;
+}
+.form h2 {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  width: 100%;
+  border-bottom: 1px solid rgba(47, 51, 60, 0.25);
+}
+
+.form-control {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+.form-control label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.form-control input {
+  border: 2px solid #f0f0f0;
+  display: block;
+  border-radius: 10px;
+  font-size: 14px;
+  width: 100%;
+  padding: 10px;
+}
+.form-buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.form-button {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-radius: 50px;
+  background-color: #3e3fd8;
+  color: white;
+  cursor: pointer;
+}
+.form-button:last-child {
+  background-color: #e74c3c;
+}
+.form-control i {
+  position: absolute;
+  top: 45px;
+  right: 10px;
+  visibility: hidden;
+}
+
+.form-control small {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+}
+
+/* error and success */
+.form-control.success input {
+  border-color: #2ecc71;
+}
+.form-control.error input {
+  border-color: #e74c3c;
+}
+
+.form-control.success i.fa-circle-check {
+  color: #2ecc71;
+  visibility: visible;
+}
+
+.form-control.error i.fa-circle-exclamation {
+  color: #e74c3c;
+  visibility: visible;
+}
+
+.form-control.error small {
+  color: #e74c3c;
+  visibility: visible;
+}
+
+.hidden {
+  display: none;
+}

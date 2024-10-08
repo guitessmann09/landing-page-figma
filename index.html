@@ -9,6 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="sign-up.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mobile.css" />
     <title>Agency Landing Page</title>
@@ -351,9 +352,55 @@
         </div>
       </div>
     </footer>
+    <div class="sign-up-container hidden">
+      <form id="form" class="form">
+        <h2>Sign Up</h2>
+        <div class="form-control">
+          <label for="username">Username</label>
+          <input type="text" id="username" placeholder="Enter your username" />
+          <i class="fa-solid fa-circle-exclamation"></i>
+          <i class="fa-solid fa-circle-check"></i>
+          <small>Mensagem de erro</small>
+        </div>
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input type="text" id="email" placeholder="Enter your email" />
+          <i class="fa-solid fa-circle-exclamation"></i>
+          <i class="fa-solid fa-circle-check"></i>
+          <small>Mensagem de erro</small>
+        </div>
+        <div class="form-control">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="Enter your password"
+          />
+          <i class="fa-solid fa-circle-exclamation"></i>
+          <i class="fa-solid fa-circle-check"></i>
+          <small>Mensagem de erro</small>
+        </div>
+        <div class="form-control">
+          <label for="password-confirmation">Confirm passowrd</label>
+          <input
+            type="password"
+            id="password-confirmation"
+            placeholder="Re-enter your password"
+          />
+          <i class="fa-solid fa-circle-exclamation"></i>
+          <i class="fa-solid fa-circle-check"></i>
+          <small>Mensagem de erro</small>
+        </div>
+        <div class="form-buttons">
+          <button class="form-button" type="submit">Submit</button>
+          <button class="form-button" id="cancel-button" type="reset">Cancel</button>
+        </div>
+      </form>
+    </div>
     <script
       src="https://kit.fontawesome.com/c5de41ae4a.js"
       crossorigin="anonymous"
     ></script>
+    <script src="scripts.js"></script>
   </body>
 </html>
