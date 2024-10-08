@@ -12,13 +12,13 @@
 </p>
 
 <p align="center">
-     <a href="https://guitessmann09.github.io/landing-page-figma/">📱 Visit this Project</a>
+     <a href="https://guitessmann09.github.io/landing-page-figma/" target="_blank">📱 Visit this Project</a>
 </p>
 
 <h2 id="layout">🎨 Layout</h2>
 
 <p align="center">
-    <img src="/img/coverImage.png" alt="Image Example" width="400px">
+    <img src="imgs/coverImage.png" alt="Image Example" width="400px">
 </p>
 
 <h2 id="technologies">💻 Technologies</h2>
