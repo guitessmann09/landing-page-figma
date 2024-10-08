@@ -13,7 +13,6 @@ form.addEventListener("submit", (e) => {
 
   checkInputs();
   isValid();
-  cleanInputs();
 });
 
 const checkInputs = () => {
@@ -89,6 +88,7 @@ const isValid = (validation) => {
   if (validation == true) {
     alert("User sign up succefull");
     signUpButton.innerHTML = `Sign Out`;
+    cleanInputs();
     showForm();
   } else {
     return;
