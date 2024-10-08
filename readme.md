@@ -1,4 +1,4 @@
-<h1 align="center" style="font-weight: bold;">Project name 💻</h1>
+<h1 align="center" style="font-weight: bold;">Agency Landing Page 💻</h1>
 
 <p align="center">
  <a href="#tech">Technologies</a> • 
@@ -8,18 +8,18 @@
 </p>
 
 <p align="center">
-    <b>Simple description of what your project do or how to use it</b>
+    <b>Landing page de uma empresa fictícia, desenvolvida em HTML, CSS e JS puro para fins de estudo.</b>
 </p>
 
 <p align="center">
-     <a href="PROJECT__URL">📱 Visit this Project</a>
+     <a href="https://guitessmann09.github.io/landing-page-figma/">📱 Visit this Project</a>
 </p>
 
 <h2 id="layout">🎨 Layout</h2>
 
 <p align="center">
-    <img src="../.github/example.png" alt="Image Example" width="400px">
-    <img src="../.github/example.png" alt="Image Example" width="400px">
+    <img src="![image](https://github.com/user-attachments/assets/d7a6bb12-b89c-4ac6-abac-5204016dc788)
+" alt="Image Example" width="400px">
 </p>
 
 <h2 id="technologies">💻 Technologies</h2>
