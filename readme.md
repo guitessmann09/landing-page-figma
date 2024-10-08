@@ -21,5 +21,14 @@
 <h2 id="technologies">💻 Technologies</h2>
 
 - HTML
+  Esqueleto baseado em seções, cada uma bem definida.
 - CSS
+  Divido em três arquivos, sendo o main, o mobile e um para o formulário de Sign Up.
 - JS
+  Feita a validação do formulário de Sign Up:
+  <ul>
+   <li>Verificação se os campos estão preenchidos, retornando o erro caso não estejam.</li>
+   <li>Validação de email.</li>
+   <li>Validação de senha, tendo que ter no mínimo 7 caracteres</li>
+   <li>Confirmação de senha, verificando se está igual a digitada no campo anterior.</li>
+  </ul>
