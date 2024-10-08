@@ -39,11 +39,19 @@
 }
 
 .navbar-container ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   list-style: none;
 }
 .navbar-container ul li {
   margin-right: 64px;
 }
+
+.navbar-container ul li:last-child {
+  margin-right: 0;
+}
+
 .navbar-container ul li a {
   color: #61646b;
   font-size: 1.5rem;
@@ -81,8 +89,6 @@
 
 .showcase-content p {
   max-width: 455px;
-  font-size: 1.125rem;
-  color: #61646b;
   margin-bottom: 10px;
 }
 
@@ -94,7 +100,7 @@
   margin-bottom: 108px;
 }
 
-.showcase-buttons button:first-child > i {
+.showcase-buttons > button > i {
   margin-left: 15px;
   background-color: #eef4ff;
   color: black;
@@ -115,7 +121,13 @@
   cursor: pointer;
 }
 
-.showcase-buttons button#video {
+.showcase-video-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.showcase-video-button button {
   margin-left: 30px;
   margin-right: 20px;
   border-radius: 100%;
@@ -124,7 +136,7 @@
   position: relative;
 }
 
-.showcase-buttons button#video i {
+.showcase-video-button button i {
   height: 20px;
   width: 20px;
   position: absolute;
@@ -132,7 +144,7 @@
   left: 14px;
 }
 
-.showcase-buttons label {
+.showcase-video-button label {
   margin-right: 38px;
   color: #61646b;
   font-size: 1.125rem;
@@ -140,7 +152,7 @@
   cursor: pointer;
 }
 
-.showcase-buttons div {
+.showcase-buttons div:last-child {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -159,7 +171,9 @@
 
 /* Clientes*/
 .clients-container {
-  margin-bottom: 140px;
+  margin-bottom: 70px;
+  padding-bottom: 70px;
+  border-bottom: 1px solid hsla(222, 12%, 21%, 0.25);
 }
 
 .clients-container h2 {
@@ -182,7 +196,9 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  margin-bottom: 140px;
+  margin-bottom: 70px;
+  padding-bottom: 70px;
+  border-bottom: 1px solid hsla(222, 12%, 21%, 0.25);
 }
 
 .next-level-left {
@@ -246,10 +262,13 @@
   align-items: center;
   column-gap: 20px;
   margin-top: 40px;
-  margin-bottom: 140px;
+  margin-bottom: 70px;
+  padding-bottom: 70px;
+  border-bottom: 1px solid hsla(222, 12%, 21%, 0.25);
 }
 
 .boost-business-card {
+  max-width: 360px;
   text-align: start;
   border-radius: 20px;
   box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.25);
@@ -303,7 +322,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 200px;
+  margin-bottom: 70px;
+  padding-bottom: 70px;
+  border-bottom: 1px solid hsla(222, 12%, 21%, 0.25);
 }
 
 .solutions-container img {
@@ -355,7 +376,9 @@
 /* Testemonials section */
 .testemonials-container {
   text-align: center;
-  margin-bottom: 200px;
+  margin-bottom: 70px;
+  padding-bottom: 70px;
+  border-bottom: 1px solid hsla(222, 12%, 21%, 0.25);
 }
 
 .testemonials-container-title {
@@ -377,6 +400,7 @@
   column-gap: 20px;
 }
 .testemonial-card {
+  max-width: 360px;
   padding: 30px 30px 40px;
   border-radius: 40px;
   box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.25);
@@ -394,7 +418,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  column-gap: 20px;
+  gap: 20px;
   margin-bottom: 20px;
 }
 
@@ -410,7 +434,9 @@
 /* News section */
 .news-container {
   text-align: center;
-  margin-bottom: 160px;
+  margin-bottom: 70px;
+  padding-bottom: 70px;
+  border-bottom: 1px solid hsla(222, 12%, 21%, 0.25);
 }
 
 .news-container h2 {
@@ -449,7 +475,6 @@
 /* Newsletter */
 .newsletter-container {
   text-align: center;
-  position: relative;
   margin-bottom: 80px;
 }
 .newsletter-container span {
@@ -467,13 +492,20 @@
   margin-bottom: 40px !important;
 }
 
+.newsletter-form {
+  position: relative;
+  max-width: 785px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
 .newsletter-form input {
   font-size: 1.5rem;
   border: 2px solid #61646b;
   outline: none;
   padding: 20px 50px;
   border-radius: 50px;
-  width: 70%;
+  width: 100%;
 }
 .newsletter-form button {
   background-color: #3e3fd8;
@@ -485,8 +517,11 @@
   outline: none;
   position: absolute;
   bottom: 7px;
-  right: 175px;
+  right: 18px;
   cursor: pointer;
+}
+.newsletter-form .hidden-button {
+  display: none;
 }
 
 /* Footer */

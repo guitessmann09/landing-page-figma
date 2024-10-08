@@ -10,6 +10,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mobile.css" />
     <title>Agency Landing Page</title>
   </head>
   <body>
@@ -25,14 +26,8 @@
           <nav class="navbar-container">
             <ul>
               <li><a href="#">Home</a></li>
-            </ul>
-            <ul>
               <li><a href="#">About Us</a></li>
-            </ul>
-            <ul>
               <li><a href="#">Service</a></li>
-            </ul>
-            <ul>
               <li><a href="#">Pricing</a></li>
             </ul>
           </nav>
@@ -46,8 +41,10 @@
           </p>
           <div class="showcase-buttons">
             <button>Get Started <i class="fa-solid fa-arrow-right"></i></button>
-            <button id="video"><i class="fa-solid fa-play"></i></button>
-            <label for="video">Watch Our Video</label>
+            <div class="showcase-video-button">
+              <button id="video"><i class="fa-solid fa-play"></i></button>
+              <label for="video">Watch Our Video</label>
+            </div>
             <div>
               <span>Our creative Team</span
               ><img src="imgs/avatar.svg" alt="Team Avatares" />
@@ -296,6 +293,9 @@
         <form class="newsletter-form">
           <input type="email" placeholder="Enter your email..." />
           <button>Get Started</button>
+          <button class="hidden-button">
+            <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+          </button>
         </form>
       </div>
     </div>
