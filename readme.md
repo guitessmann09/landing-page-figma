@@ -21,11 +21,11 @@
 <h2 id="technologies">💻 Technologies</h2>
 
 - HTML
-  Esqueleto baseado em seções, cada uma bem definida.
+  <p>Esqueleto baseado em seções, cada uma bem definida.</p>
 - CSS
-  Divido em três arquivos, sendo o main, o mobile e um para o formulário de Sign Up.
+  <p>Divido em três arquivos, sendo o main, o mobile e um para o formulário de Sign Up.</p>
 - JS
-  Feita a validação do formulário de Sign Up:
+  <p>Feita a validação do formulário de Sign Up:</p>
   <ul>
    <li>Verificação se os campos estão preenchidos, retornando o erro caso não estejam.</li>
    <li>Validação de email.</li>
